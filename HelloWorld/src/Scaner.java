@@ -34,7 +34,7 @@ public class Scaner {
 		System.out.println("Escribe un numero:");
 
 		int numero = keyboard.nextInt();
-		keyboard.close();
+		
 		
 		int i = 2;
 
@@ -50,11 +50,8 @@ public class Scaner {
 			System.out.println("El numero no es primo");
 		}
 		
-//		else if (numero == 2){
-//			System.out.println("El numero es primo");
-//		}else if (numero <= 1) {
-//			System.out.println("Has puesto un 0, un 1 o un numero negativo");
-//		}
+		keyboard.close();
+//		
 
 	}
 
