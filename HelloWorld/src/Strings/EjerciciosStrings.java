@@ -5,7 +5,7 @@ public class EjerciciosStrings {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 				
-		String cadena = "";
+		char letra;
 		
 		
 		
@@ -15,11 +15,10 @@ public class EjerciciosStrings {
 
 		for(int i = 0; i < palabra.length(); i++) {
 			
-			cadena += palabra.charAt(i);
+			letra = palabra.charAt(i);
+			System.out.println(letra);
 			
 		}
-		System.out.println(cadena);
-		
 	}
 
 }
