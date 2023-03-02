@@ -1,3 +1,4 @@
+package Personas;
 
 public class Estudiante extends Persona{
 //	Constructores

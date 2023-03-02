@@ -1,3 +1,4 @@
+package EjerciciosClase;
 
 public class EjerciciosJAVA {
 
@@ -61,9 +62,8 @@ public class EjerciciosJAVA {
 		// Metodos
 		void mostrarInfo() {}
 		void agregarNuevaNota() {}
+	}}
 
-	}
 	
-	public static 
 	
-}
+	
