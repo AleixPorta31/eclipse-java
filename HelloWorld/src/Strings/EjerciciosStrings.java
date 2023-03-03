@@ -69,48 +69,75 @@ public class EjerciciosStrings {
 //			System.out.println("La palabra " + palabra + " no contiene abc");
 //		}
 		
-		//Es CAPICUA?
-		Scanner tuPalabra = new Scanner(System.in);
-		System.out.printf("Escribe una palabra:").println();
-		String palabra = tuPalabra.next();		
-		tuPalabra.close();
+//		//Es CAPICUA?
+//		Scanner tuPalabra = new Scanner(System.in);
+//		System.out.printf("Escribe una palabra:").println();
+//		String palabra = tuPalabra.next();		
+//		tuPalabra.close();
+//		
+//		int numPar = 0;
+//				
+//		int mitad = palabra.length()/2;
+//				
+//		String principio = palabra.substring(0, mitad);
+//		
+//		for(int i = 0; i <= palabra.length(); i++) {
+//			if (palabra.length() % 2 == 0) {
+//				numPar = 1;
+//			}else {
+//				numPar = 2;
+//			}				
+//		}
+//		
+//		String finaal = "";
+//		
+//		if(numPar == 2) {
+//			finaal = palabra.substring(mitad +1);
+//		}else if(numPar == 1) {
+//			finaal = palabra.substring(mitad);
+//		}
+//
+//				
+//		String principioRevertido = new StringBuilder(principio).reverse().toString();	
+//				
+//		if (principioRevertido.equals(finaal)) {
+//			System.out.println("La palabra " + palabra + " SI es un palindromo");
+//		}else {
+//			System.out.println("La palabra " + palabra + " NO es un palindromo");
+//		}		
 		
-		int numPar = 0;
-				
-		int mitad = palabra.length()/2;
-				
-		String principio = palabra.substring(0, mitad);
 		
-		for(int i = 0; i <= palabra.length(); i++) {
-			if (palabra.length() % 2 == 0) {
-				numPar = 1;
-			}else {
-				numPar = 2;
-			}				
-		}
-		
-		String finaal = "";
-		
-		if(numPar == 2) {
-			finaal = palabra.substring(mitad +1);
-		}else if(numPar == 1) {
-			finaal = palabra.substring(mitad);
-		}
+		//Ex1 pag 421
+		StringBuilder palabra1 = new StringBuilder("Hola");
+		StringBuilder palabra2 = new StringBuilder("Aleix");
 
-				
-		String principioRevertido = new StringBuilder(principio).reverse().toString();	
-				
-		if (principioRevertido.equals(finaal)) {
-			System.out.println("La palabra " + palabra + " SI es un palindromo");
-		}else {
-			System.out.println("La palabra " + palabra + " NO es un palindromo");
-		}
+		System.out.println(palabra1.append(" " + palabra2)); 
+		
+		//Ex2 pag 421
+		StringBuilder palabra3 = new StringBuilder("Aleyo");
+		
+		System.out.println(palabra3.delete(palabra3.length() -1, palabra3.length()));
+		
+		//Ex3 pag 421
+//		StringBuilder palabra4 = new StringBuilder("Hola a tothom!");
+//		
+//		int i = 0;		
+//		
+//		while(i < palabra4.length()) {		
+//			
+//			i++;
+//			
+//			if(i % 3 == 0) {				
+//				System.out.println(palabra4.insert(i, 'b'));				
+//			}				
+//				
+//		}		
+		
+		//Ex5 pag 421
 		
 		
+			
 		
-		
-		
-
-	}
+	}	
 
 }
